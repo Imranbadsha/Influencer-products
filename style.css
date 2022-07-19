@@ -4,6 +4,7 @@ body{
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
+    background-color: #AAAAAA;
 }
 /* navbar style  */
 nav{
@@ -33,6 +34,8 @@ nav a{
     margin-left: 120px;
     width: 582px;
     height: 270px;
+    margin-top: 142px;
+    margin-right: 133px;
 }
 .banner h1{
     font-size: 52px;
@@ -50,4 +53,80 @@ nav a{
     width:196px;
     height: 44px;
     font-size: 16px;
+}
+.top{
+    display: flex;  
+    /* align-items: baseline; */
+}
+.top img{
+    width: 440px;
+    Height: 414px;
+    margin-left:450px;
+    margin-top: 80px;
+}
+/* marketing part start  */
+.mareket{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px 165px;
+    padding: 50px;
+    border-top: 1px solid rgba(192, 204, 218, 0.2);
+    border-bottom: 1px solid rgba(192, 204, 218, 0.2) ;
+}
+.mareket img{
+    margin-left: 65px;
+}
+/* marketing part close */
+
+/* product part start  */
+.products-section{
+margin: 5px 196px;
+}
+.product-title{
+    
+    color: #3A3A3A;
+    text-align: center;
+    Font-size: 28px;
+    font-weight: 600;
+    height: 70px;
+    margin-right: 120px;
+}
+.popular-part{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    gap: 30px;
+    /* justify-content: center;
+    align-items: center; */
+}
+.product{
+    Width: 329px;
+    Height: 476px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding: 15px;
+}
+.product h1{
+    Font-size: 28px;
+    font-weight: 500;
+}
+.product p{
+    Font-size: 14px;
+    font-weight: 700;
+    color: #787885;
+}
+.fa-star{
+    color: orange;
+}
+.fa-star-half-stroke{
+    color: orange;
+}
+.product-button{
+   float: right;
+   margin-top: 50px;
+   margin-right:120px;
+   Font-size:16px;
+   font-weight: 700;
+   color: rgba(224, 44, 109, 0.87);
+   border: none;
 }
