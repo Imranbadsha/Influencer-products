@@ -5,7 +5,9 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
     background-color: #AAAAAA;
+    /* width: 1440px; */
 }
+
 /* navbar style  */
 nav{
     display: flex;
@@ -82,6 +84,7 @@ nav a{
 /* product part start  */
 .products-section{
 margin: 5px 196px;
+margin-bottom: 100px;
 }
 .product-title{
     
@@ -128,5 +131,76 @@ margin: 5px 196px;
    Font-size:16px;
    font-weight: 700;
    color: rgba(224, 44, 109, 0.87);
-   border: none;
+   text-decoration: none;
+}
+/* last part  */
+.features{
+    margin: 100px 165px;
+}
+.last-part{
+    display: grid;
+    grid-template-columns: repeat(2,2fr) ;
+    justify-content:start;
+    gap: 50px;
+}
+.last-part h1{
+    Font-size: 38px;
+    font-weight: 700;
+    color: #0A0826;
+}
+.last-part p{
+    Font-size: 16px;
+    font-weight: 700;
+    color: #6C6C6C;
+}
+.join-button{
+    width: 155px;
+    height: 44px;
+    background-color:  #E02C6D;
+    Font-size: 16px;
+    color: white;
+    border: none;
+}
+.fa-arrow-right{
+    padding-left: 8px;
+}
+/* last part end */
+
+/* footer part  */
+
+.footer-part{
+    height: 239px;
+    text-align: center;
+    background-color: #0A0826;
+    width: 100%;
+ }
+ .footer-part h1{
+    Font-size: 24px;
+    font-weight: 700;
+    color: white;
+ }
+ .footer-part p{
+    Font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
+.fa-instagram-square{
+    width: 32px;
+    height: 32px;
+    color: white;
+}
+.fa-facebook-square{
+    width: 32px;
+    height: 32px;
+    color: white;
+}
+.fa-twitter-square{
+    width: 32px;
+    height: 32px;
+    color: white;
+}
+.fa-youtube-square{
+    width: 32px;
+    height: 32px;
+    color: white;
 }
